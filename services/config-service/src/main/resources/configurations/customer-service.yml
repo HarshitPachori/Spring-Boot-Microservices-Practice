@@ -1,0 +1,11 @@
+spring:
+  mongodb:
+    username: mongodb
+    password: mongodb
+    host: localhost
+    port: 27017
+    database: ms_customer_db
+    authentication-database: admin
+
+server:
+  port: 8090
