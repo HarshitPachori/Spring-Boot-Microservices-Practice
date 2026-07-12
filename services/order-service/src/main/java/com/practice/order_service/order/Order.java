@@ -38,6 +38,7 @@ public class Order {
   @Id
   @GeneratedValue
   private Integer id;
+  @Column(unique = true, nullable = false)
   private String reference;
   private BigDecimal totalAmount;
   @Enumerated(EnumType.STRING)
